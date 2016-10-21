@@ -1,5 +1,5 @@
 CREATE TABLE monkeys (
-	`Player` VARCHAR(20) NOT NULL, 
+	`Player` VARCHAR(55) NOT NULL, 
 	`Speed` INTEGER NOT NULL, 
 	`KickPower` INTEGER NOT NULL, 
 	`Heading` INTEGER NOT NULL, 
