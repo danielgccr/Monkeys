@@ -133,7 +133,7 @@ $("#search").on("keyup", function() {
 </script>
 <header>MonoFútbol Stats</header>
 <section id="intro">
-    <article id="menu"><strong>Menú:</strong> <a href="/foros/">Foros</a> <a href="search.php">Búsqueda avanzada</a> <a href="data.php">Análisis de datos</a> <a href="http://www.github.com">Código en Github</a> <a href="contact.php">Contacto</a></article>
+    <article id="menu"><strong>Menú:</strong> <a href="/foros/">Foros</a> <a href="search.php">Búsqueda avanzada</a> <a href="data.php">Análisis de datos</a> <a href="contact.php">Contacto</a></article>
     <p>Como uno de los pocos obsesionados que han logrado el extremo  de transformar un plataformas sencillo y divertido como el Ape Escape en un dignísimo juego arcade de fútbol, estirando todo lo posible un minijuego con un solo modo, el torneo, presento las estadísticas de sus 302 jugadores en una sencilla tabla SQL. Aunque no figure en el minijuego original, he calculado la puntuación general para cada mono a partir de la suma total de sus características, que son ocho, de tal modo que el peor mono puede tener 8 puntos y el mejor de todos, 72. A continuación, presentamos el código de colores, basado en el juego, y una orientación de la calidad general:</p>
     <ul>
         <li><span class="grey">[8 - 40)</span>: Malos y mediocres</li>
@@ -146,6 +146,6 @@ $("#search").on("keyup", function() {
 <section id="table">
 <?php include("consults.php"); ?>
 </section>
-<footer>Copyleft 2016, Media Inc Industries</footer>
+<footer>Copyleft 2016, Media Inc Industries <br/> <a href="https://github.com/McManusson/Monkeys"><img src="github.png"/></a></footer>
 </body>
 </html>
